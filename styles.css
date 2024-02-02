@@ -256,13 +256,15 @@ body{
     display: flex;
     background-color: aqua;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-top: 20%;
 }
 
 .scoreCard{
     font-size: 3rem;
     display: flex;
-    flex-direction: column;
+    
 }
 
 .tag{
